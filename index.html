@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create JQuery Plugin</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/jQuery.carousel.js"></script>
+    <script src="js/shablon.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/template" id="template">
+        <h1><%= topic  %></h1>
+        <img <%= linkImg  %> width="200" <%= textImg %>>
+        <p><%= textP %></p>
+        <p><%= textP_ %></p>
+        <p><%= textP1 %></p>
+        <p><%= textP_ %></p>
+        <nav>
+            <li> <a <%= linkSourse %>><%= topic  %></a></li>
+            <li> <a <%= linkSell %>><%= textSell %></a></li>
+        </nav>
+    </script>
+</head>
+<!--  The Georgia Aquarium -->
+<div class="wrapper">
+    <header>
+        <h1 class="page-header">Home Work 11-12</h1>
+    </header>
+    <main>
+        <div class="carousel-arrow-left btn btn-default btn-lg"><span>Влево</span></div>
+        <div class="carousel-hider">
+            <ul class="carousel-list">
+                <li class="carousel-element"><img src="img/image1.jpg">
+                    <p>Описание 1</p></li>
+                <li class="carousel-element"><img src="img/image2.jpg">
+                    <p>Описание 2</p></li>
+                <li class="carousel-element"><img src="img/image3.jpg">
+                    <p>Описание 3</p></li>
+                <li class="carousel-element"><img src="img/image4.jpg">
+                    <p>Описание 4</p></li>
+                <li class="carousel-element"><img src="img/image5.jpg">
+                    <p>Описание 5</p></li>
+                <li class="carousel-element"><img src="img/image6.jpg">
+                    <p>Описание 6</p></li>
+                <li class="carousel-element"><img src="img/image7.jpg">
+                    <p>Описание 7</p></li>
+                <li class="carousel-element"><img src="img/image8.jpg">
+                    <p>Описание 8</p></li>
+                <li class="carousel-element"><img src="img/image9.jpg">
+                    <p>Описание 9</p></li>
+                <li class="carousel-element"><img src="img/image10.jpg">
+                    <p>Описание 10</p></li>
+                <li class="carousel-element"><img src="img/image11.jpg">
+                    <p>Описание 11</p></li>
+                <li class="carousel-element"><img src="img/image12.jpg">
+                    <p>Описание 12</p></li>
+            </ul>
+        </div>
+        <div class="carousel-arrow-right btn btn-default btn-lg"><span>Вправо</span></div>
+    </main>
+
+    <footer>
+    </footer>
+
+</div>
+</body>
+</html>

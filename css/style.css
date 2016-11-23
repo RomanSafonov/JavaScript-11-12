@@ -1,0 +1,82 @@
+body{
+    background: url(../img/back.jpg) no-repeat;
+    background-position: center;
+    color: white;
+    font-family: "Bitstream Vera Sans";
+}
+
+h1{
+    text-align: center;
+
+}
+
+main{
+    margin-left: 10%;
+    height: 400px;
+}
+
+main:after{
+    clear: both;
+}
+
+footer{
+    margin-left: 10%;
+    height: 33%;
+}
+
+a{
+    color: lightcoral;
+}
+p{
+    width: 50%;
+}
+.carousel-list {
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+    position: relative;
+}
+
+.carousel-element {
+    display: block;
+    margin-right: 20px;
+    float: left;
+}
+
+.carousel-element img {
+    max-width: 400px;
+}
+
+.carousel-hider {
+    width: 1240px;
+    overflow: hidden;
+    float: left;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    display: block;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.carousel-arrow-left {
+    margin-right: 25px;
+    color: #00f;
+}
+
+.carousel-arrow-right {
+    margin-left: 25px;
+    color: #00f;
+}
